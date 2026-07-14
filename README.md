@@ -1,13 +1,9 @@
-# Smart Ambulance Routing System
+MedQueuePro: Advanced Multi-Layered Hospital Token Tracking & Appointment Aggregator
+MedQueuePro is a state-of-the-art, multi-layered web application built with a React + TypeScript (Vite) frontend, a Java 17 + Spring Boot backend, and PostgreSQL / H2 database support. It mirrors a modern aggregator platform (like DoorDash or Zomato):
 
-An intelligent, multi-layered emergency response platform designed to minimize transit times during medical emergencies by connecting ambulances with live traffic predictions, hospital bed availability, and automated entry systems.
-
-## Architecture
-
-This project is a monorepo consisting of:
-1. **`backend-spring`**: A Spring Boot (Java 17) REST API powering the core data storage (H2 Database) and hospital business logic.
-2. **`ai-python-services`**: A FastAPI (Python) microservice simulating DNN/Gradient Boosting traffic prediction and ANPR script integration.
-3. **`frontend-flutter`**: A cross-platform Flutter application providing responsive interfaces for both Paramedics on tablets and Hospital Admins on triaging dashboards.
+Hospitals act as the accredited vendor facilities.
+Specializations & Doctors act as the menu items categorized cleanly under wings (Cardiology, Pediatrics, Neurology, etc.).
+Live Tokens & Appointments act as orders being tracked in real time from #4 Booked -> #2 Checked In -> #1 Serving Now inside cabin -> Completed.
 
 ## Prerequisites
 
