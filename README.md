@@ -59,7 +59,7 @@ flutter run
 
 ## Simulated Workflows
 
-- **Driver Navigation**: In the Flutter app, select "Ambulance Tablet Navigation". Clicking "Recalculate AI Route" simulates a request to the Python microservice for route optimization.
-- **Hospital Dashboard**: Select "Hospital Triage Dashboard". This view auto-refreshes data connecting to the Spring API to track inbound ambulances heading to `City Central Hospital`.
-- **ANPR Simulation**: Use the Python `/docs` to simulate a camera detecting an ambulance plate at the hospital entrance bay.
-- **LoRa Telemetry Fallback**: Send mock GPS coordinates to the Python `/telemetry/lora/ingress` endpoint, which automatically proxies the data to the Spring Boot Core Backend.
+▸   Architected a multi-tenant healthcare aggregator utilizing PostGIS spatial queries, enabling seamless location-based hospital discovery and doctor booking for non-local patients.
+▸   Engineered a low-latency live token-tracking engine with WebSockets and Redis, broadcasting real-time queue updates and dynamic ETA calculations to clients without heavy HTTP polling.
+▸   Designed a secure, normalized PostgreSQL schema with strict facility indexing to isolate concurrent hospital data and ensure data integrity across the multi-layered REST API gateway.
+▸   Streamlined outpatient management by bridging hospital reception portals directly with patient devices, effectively reducing physical waiting room congestion and appointment bottlenecks.
